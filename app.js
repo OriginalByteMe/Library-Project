@@ -25,10 +25,6 @@ function closeForm() {
 
 function displayBooks() {
   // display books in myLibrary
-  addBookToLibrary("The Hobbit", "J.R.R. Tolkien", "Fantasy", 295, true);
-  addBookToLibrary("The Lord of the Rings", "J.R.R. Tolkien", "Fantasy", 1178, true);
-  addBookToLibrary("The Silmarillion", "J.R.R. Tolkien", "Fantasy", 412, false);
-  addBookToLibrary("The Hobbit", "J.R.R. Tolkien", "Fantasy", 295, true);
   const booksContainer = document.querySelector(".books-container");
   for(let i =0, len = myLibrary.length; i < len; i++){
     let bookContainer = document.createElement("div");
